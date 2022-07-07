@@ -1,0 +1,5 @@
+[
+null,
+{"id":1,"battlerName":"1","characterIndex":0,"characterName":"1","classId":1,"equips":[1,1,2,3,0],"faceIndex":0,"faceName":"1","traits":[{"code":41,"dataId":2,"value":1},{"code":43,"dataId":11,"value":1},{"code":43,"dataId":12,"value":1}],"initialLevel":1,"maxLevel":99,"name":"Haroldo","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"3","characterIndex":0,"characterName":"3","classId":2,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"3","traits":[{"code":41,"dataId":1,"value":1},{"code":43,"dataId":13,"value":1},{"code":43,"dataId":14,"value":1}],"initialLevel":1,"maxLevel":99,"name":"Rio","nickname":"","note":"","profile":""}
+]

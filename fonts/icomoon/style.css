@@ -1,0 +1,539 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?2vji94');
+  src: url('fonts/icomoon.eot?2vji94#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?2vji94') format('truetype'),
+    url('fonts/icomoon.woff?2vji94') format('woff'),
+    url('fonts/icomoon.svg?2vji94#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-backward:before {
+  content: "\e900";
+}
+
+.icon-play2:before {
+  content: "\e901";
+}
+
+.icon-previous:before {
+  content: "\e902";
+}
+
+.icon-next:before {
+  content: "\e903";
+}
+
+.icon-forward2:before {
+  content: "\e904";
+}
+
+element.style {}
+
+body:not(.device-mobile-optimized) ._2hrvQ ._1nZnX ._3WTly {
+  font: var(--fnt, var(--font_8));
+  font-size: 18px;
+}
+
+._2hrvQ ._1nZnX ._3WTly {
+  color: rgb(var(--txt, var(--color_18)));
+  border-bottom: 1px solid #0198ff;
+  float: none;
+  border: none;
+  text-align: left;
+  font-weight: 400;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a,
+abbr,
+acronym,
+address,
+applet,
+b,
+big,
+blockquote,
+body,
+button,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+font,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+nav,
+object,
+ol,
+p,
+pre,
+q,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+title,
+tr,
+tt,
+u,
+ul,
+var {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+user agent stylesheet button {
+  appearance: auto;
+  writing-mode: horizontal-tb !important;
+  font-style: ;
+  font-variant-ligatures: ;
+  font-variant-caps: ;
+  font-variant-numeric: ;
+  font-variant-east-asian: ;
+  font-weight: ;
+  font-stretch: ;
+  font-size: ;
+  font-family: ;
+  text-rendering: auto;
+  color: buttontext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: buttonface;
+  margin: 0em;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+}
+
+._2hrvQ ._1nZnX {
+  text-align: center;
+  padding-top: 0;
+  margin-bottom: 32px;
+}
+
+._2hrvQ {
+  text-align: center;
+}
+
+._2SGQR {
+  position: fixed !important;
+  width: 100% !important;
+  height: 100% !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: calc(var(--above-all-z-index) + 1);
+  color: rgb(var(--txt, 156, 156, 156));
+}
+
+style attribute {
+  --blocked-site-scroll-margin-top: 0.5px;
+}
+
+body {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --color_0: 255, 255, 255;
+  --color_1: 255, 255, 255;
+  --color_2: 0, 0, 0;
+  --color_3: 237, 28, 36;
+  --color_4: 0, 136, 203;
+  --color_5: 255, 203, 5;
+  --color_6: 114, 114, 114;
+  --color_7: 176, 176, 176;
+  --color_8: 255, 255, 255;
+  --color_9: 114, 114, 114;
+  --color_10: 176, 176, 176;
+  --color_11: 47, 48, 47;
+  --color_12: 95, 95, 94;
+  --color_13: 142, 143, 141;
+  --color_14: 179, 179, 179;
+  --color_15: 237, 238, 235;
+  --color_16: 81, 34, 17;
+  --color_17: 161, 67, 33;
+  --color_18: 242, 101, 50;
+  --color_19: 246, 175, 149;
+  --color_20: 251, 202, 184;
+  --color_21: 19, 25, 29;
+  --color_22: 37, 50, 57;
+  --color_23: 57, 69, 77;
+  --color_24: 110, 120, 125;
+  --color_25: 135, 147, 153;
+  --color_26: 54, 54, 43;
+  --color_27: 109, 108, 87;
+  --color_28: 163, 161, 130;
+  --color_29: 217, 215, 173;
+  --color_30: 236, 235, 212;
+  --color_31: 60, 53, 26;
+  --color_32: 120, 107, 52;
+  --color_33: 180, 161, 78;
+  --color_34: 240, 214, 104;
+  --color_35: 247, 234, 177;
+  --font_0: normal normal normal 14px/1.4em 'lucida console', lucida-console-w01, monospace;
+  --font_1: normal normal normal 16px/1.4em din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
+  --font_2: normal normal normal 72px/1.4em dinneuzeitgroteskltw01-_812426, sans-serif;
+  --font_3: normal normal normal 170px/1.4em dinneuzeitgroteskltw01-_812426, sans-serif;
+  --font_4: normal normal normal 45px/1.4em dinneuzeitgroteskltw01-_812426, sans-serif;
+  --font_5: normal normal normal 27px/1.4em dinneuzeitgroteskltw01-_812426, sans-serif;
+  --font_6: normal normal normal 20px/1.4em proxima-n-w01-reg, proxima-n-w05-reg, sans-serif;
+  --font_7: normal normal normal 19px/1.4em proxima-n-w01-reg, proxima-n-w05-reg, sans-serif;
+  --font_8: normal normal normal 15px/1.4em proxima-n-w01-reg, proxima-n-w05-reg, sans-serif;
+  --font_9: normal normal normal 13px/1.4em proxima-n-w01-reg, proxima-n-w05-reg, sans-serif;
+  --font_10: normal normal normal 12px/1.4em din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
+  --wix-ads-height: 50px;
+  --wix-ads-top-height: 50px;
+  --site-width: 980px;
+  Show All Properties (4 more)
+}
+
+element.style {}
+
+*,
+:after,
+:before {
+  background-repeat: no-repeat;
+  box-sizing: inherit;
+}
+
+.social-login {
+  padding: 0;
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 16px;
+  font-weight: 300;
+  cursor: pointer;
+  outline: 0;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+input,
+select,
+textarea {
+  background-color: transparent;
+  border-style: none;
+  color: inherit;
+  font-size: 1em;
+  margin: 0;
+}
+
+user agent stylesheet button {
+  writing-mode: horizontal-tb !important;
+  font-style: ;
+  font-variant-ligatures: ;
+  font-variant-caps: ;
+  font-variant-numeric: ;
+  font-variant-east-asian: ;
+  font-weight: ;
+  font-stretch: ;
+  font-size: ;
+  font-family: ;
+  text-rendering: auto;
+  color: buttontext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: center;
+  cursor: default;
+}
+
+html {
+  box-sizing: border-box;
+  cursor: default;
+  font-family: sans-serif;
+  line-height: 1.5;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+:after,
+:before {
+  text-decoration: inherit;
+  vertical-align: inherit;
+}
+
+*,
+:after,
+:before {
+  background-repeat: no-repeat;
+  box-sizing: inherit;
+}
+
+:after,
+:before {
+  text-decoration: inherit;
+  vertical-align: inherit;
+}
+
+*,
+:after,
+:before {
+  background-repeat: no-repeat;
+  box-sizing: inherit;
+}
+
+::selection {
+  background-color: #b3d4fc;
+  color: #000;
+  text-shadow: none;
+}
+
+element.style {
+}
+._2UgQw ._1Qjd7 {
+    font: var(--fnt,var(--font_5));
+    transition: var(--trans2,color .4s ease 0s);
+    color: var(--corvid-color,rgb(var(--txt,var(--color_15))));
+    position: relative;
+    white-space: nowrap;
+    margin: 0;
+}
+a, abbr, acronym, address, applet, b, big, blockquote, body, button, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, ins, kbd, label, legend, li, nav, object, ol, p, pre, q, s, samp, section, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, title, tr, tt, u, ul, var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+._2UgQw[aria-disabled=false] ._1fbEI {
+    background-color: var(--corvid-background-color,rgba(var(--bg,var(--color_17)),var(--alpha-bg,1)));
+    border: solid var(--corvid-border-color,rgba(var(--brd,var(--color_15)),var(--alpha-brd,1))) var(--corvid-border-width,var(--brw,0));
+    cursor: pointer!important;
+}
+.c2aD3 button {
+    --brw: 1px;
+    --txt: var(--color_15);
+    --bg: (--color_11);
+    --brd: var(--color_13);
+    --bgh: var(--color_11);
+    --brdh: var(--color_15);
+    --txth: var(--color_15);
+    --alpha-brdh: 1;
+    --alpha-bg: 0;
+    --shc-mutated-brightness: 128,128,128;
+}
+.C1xAY button, .c2aD3 button {
+    box-sizing: border-box;
+    --fnt: getVar(font_8);
+    font-size: 16px;
+    --rd: 0px;
+    --trans1: bord er-color 0.4s ease 0s,background-color 0.4s ease 0s;
+    --shd: none;
+    --trans2: color 0.4s ease 0s;
+    --bgd: 204,204,204;
+    --brdd: 204,204,204;
+    --txtd: 255,255,255;
+    --boxShadowToggleOn-shd: none;
+    --alpha-txt: 1;
+    --alpha-brd: 1;
+    --alpha-txth: 1;
+    --alpha-bgh: 1;
+    --label-align: center;
+    --label-text-align: center;
+}
+._1fbEI {
+    text-align: initial;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    justify-content: var(--label-align);
+    min-width: 100%;
+}
+user agent stylesheet
+button {
+    writing-mode: horizontal-tb !important;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: center;
+    cursor: default;
+}
+body:not(.device-mobile-optimized) .C1xAY, body:not(.device-mobile-optimized) .c2aD3 {
+    font-weight: 300;
+}
+._2hrvQ .C1xAY, ._2hrvQ .c2aD3 {
+    position: relative;
+    font: var(--font_8);
+}
+._2hrvQ {
+    text-align: center;
+}
+._2SGQR {
+    position: fixed!important;
+    width: 100%!important;
+    height: 100%!important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: calc(var(--above-all-z-index) + 1);
+    color: rgb(var(--txt,156,156,156));
+}
+style attribute {
+    --blocked-site-scroll-margin-top: 0.5px;
+}
+body {
+    font-size: 10px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+:root {
+    --color_0: 255,255,255;
+    --color_1: 255,255,255;
+    --color_2: 0,0,0;
+    --color_3: 237,28,36;
+    --color_4: 0,136,203;
+    --color_5: 255,203,5;
+    --color_6: 114,114,114;
+    --color_7: 176,176,176;
+    --color_8: 255,255,255;
+    --color_9: 114,114,114;
+    --color_10: 176,176,176;
+    --color_11: 47,48,47;
+    --color_12: 95,95,94;
+    --color_13: 142,143,141;
+    --color_14: 179,179,179;
+    --color_15: 237,238,235;
+    --color_16: 81,34,17;
+    --color_17: 161,67,33;
+    --color_18: 242,101,50;
+    --color_19: 246,175,149;
+    --color_20: 251,202,184;
+    --color_21: 19,25,29;
+    --color_22: 37,50,57;
+    --color_23: 57,69,77;
+    --color_24: 110,120,125;
+    --color_25: 135,147,153;
+    --color_26: 54,54,43;
+    --color_27: 109,108,87;
+    --color_28: 163,161,130;
+    --color_29: 217,215,173;
+    --color_30: 236,235,212;
+    --color_31: 60,53,26;
+    --color_32: 120,107,52;
+    --color_33: 180,161,78;
+    --color_34: 240,214,104;
+    --color_35: 247,234,177;
+    --font_0: normal normal normal 14px/1.4em 'lucida console',lucida-console-w01,monospace;
+    --font_1: normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    --font_2: normal normal normal 72px/1.4em dinneuzeitgroteskltw01-_812426,sans-serif;
+    --font_3: normal normal normal 170px/1.4em dinneuzeitgroteskltw01-_812426,sans-serif;
+    --font_4: normal normal normal 45px/1.4em dinneuzeitgroteskltw01-_812426,sans-serif;
+    --font_5: normal normal normal 27px/1.4em dinneuzeitgroteskltw01-_812426,sans-serif;
+    --font_6: normal normal normal 20px/1.4em proxima-n-w01-reg,proxima-n-w05-reg,sans-serif;
+    --font_7: normal normal normal 19px/1.4em proxima-n-w01-reg,proxima-n-w05-reg,sans-serif;
+    --font_8: normal normal normal 15px/1.4em proxima-n-w01-reg,proxima-n-w05-reg,sans-serif;
+    --font_9: normal normal normal 13px/1.4em proxima-n-w01-reg,proxima-n-w05-reg,sans-serif;
+    --font_10: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    --wix-ads-height: 50px;
+    --wix-ads-top-height: 50px;
+    --site-width: 980px;
+Show All Properties (4 more)
+}
